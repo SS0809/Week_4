@@ -45,7 +45,7 @@ public class ReverseList {
         }
         System.out.println();
         for (int i=0;i<n;i++){
-            list.add(i,list.get(n-1));
+            list.add(i,list.remove(n-1));
         }
         for (int i=0;i<n;i++){
             System.out.print(list.get(i)+",");
