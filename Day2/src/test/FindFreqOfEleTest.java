@@ -1,12 +1,9 @@
-import org.collections1.map.FindFreqOfEle;
+import org.collections1.list.FindFreqOfEle;
 import org.junit.jupiter.api.*;
 
 import java.util.HashMap;
-import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-
-import static org.collections1.list.ReverseList.*;
 
 public class FindFreqOfEleTest {
     @Test
