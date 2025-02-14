@@ -8,7 +8,7 @@ import java.io.*;
 //Expected Behavior:
 //If the file exists, print its contents.
 //If the file does not exist, catch the IOException and print "File not found".
-public class checked {
+public class Checked {
     public static void main(String[] args) {
         try {
             File fl = new File("input.txt");
