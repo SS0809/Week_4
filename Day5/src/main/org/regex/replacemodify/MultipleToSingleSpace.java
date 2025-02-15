@@ -11,15 +11,10 @@ import java.util.regex.Pattern;
 public class MultipleToSingleSpace {
     String replace(String input){
         String regex = "\\s+",res = "";
-        Pattern pattern = Pattern.compile(regex);
-        Matcher m = pattern.matcher(input);
-        while (m.find()){
-            res = input.replaceAll(m.group()," ");
-        }
-        return res;
+        return input.replaceAll(regex, " ");
     }
     public static void main(String[] args) {
-        String input = "This  is  an example  with multiple  spaces.";
+        String input = "This      is  an example  with multiple  spaces.";
         MultipleToSingleSpace ms = new MultipleToSingleSpace();
         System.out.println(ms.replace(input));
     }
