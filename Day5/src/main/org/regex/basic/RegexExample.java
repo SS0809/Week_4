@@ -1,0 +1,15 @@
+package org.regex.basic;
+
+import java.util.regex.*;
+public class RegexExample {
+    public static void main(String[] args) {
+        // Define the regex pattern
+        String regex = "\\d{3}";
+        Pattern pattern = Pattern.compile(regex);
+        String input = "The number is 123 and code is 456.";
+        Matcher matcher = pattern.matcher(input);
+        while (matcher.find()){
+            System.out.println(matcher.group());
+        }
+    }
+}
