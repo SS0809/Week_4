@@ -1,4 +1,4 @@
-package org.annotations;
+package org.annotations.builtinannotation;
 //Exercise 2: Use @Deprecated to Mark an Old Method
 //✅ Problem Statement:
 //Create a class LegacyAPI with an old method oldFeature(), which should not be used anymore. Instead, introduce a new method newFeature().

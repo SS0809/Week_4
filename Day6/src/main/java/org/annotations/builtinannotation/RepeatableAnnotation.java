@@ -1,4 +1,4 @@
-package org.annotations;
+package org.annotations.builtinannotation;
 
 import java.lang.annotation.*;
 
